@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Zeyada&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Kanit&family=Zeyada&display=swap');
 body {
     color: blue;
     font-family: 'Zeyada', cursive;;
@@ -23,6 +23,34 @@ h1 {
 }
 
 #tray ul{
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Abel', sans-serif;
+    cursor: pointer;
 }
+
+#tray ul:after{
+    content: '+';
+
+}
+
+#tray[open] ul:after{
+    color: aqua;
+    
+}
+
+#tray[open] ul:after{
+    content: '-';
+    
+}
+
+#tray p :last-child{
+    color: red
+}
+
+
+
+
+
+
+
+
 /* use element selactor for changing link color */
