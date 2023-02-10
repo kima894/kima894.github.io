@@ -5,8 +5,13 @@ body {
     padding: 2em;
 }
 
-h1{
+h1 {
     color: purple;
     font-size: 2em;
     font-family: 'Kanit', sans-serif;;
+}
+
+.large-header {
+    color: green;
+    font-size: 1.5em;
 }
