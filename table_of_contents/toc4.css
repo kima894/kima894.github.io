@@ -1,9 +1,31 @@
-/* .line {
+.line {
     border-left: 6px solid black;
-    height: 500px;
+    height: 1215px;
     position: absolute;
     left: 50%;
-    margin-left: -3px;
-    top: 5;
-  } */
-  
+    margin-left: -55px;
+    top: 25px;
+  }
+  html{
+    font-size: 20px;
+  }
+
+  .align{
+        text-align: right;
+        position: absolute;
+        /* left: 85%; */
+        margin-left: 600px;
+        top: 33px;
+  }
+
+  .leftside{
+   
+        /* height: 500px; */
+        text-align: left;
+        position: absolute;
+        /* left: 85%; */
+        margin-left: 80px;
+        top: 22px;
+      
+  }
+
