@@ -1,3 +1,19 @@
-.change{
-    color: blue;
+body{
+    padding-left: 60px;
 }
+
+.change{
+    padding-left: 20px;
+    color: blue;
+    letter-spacing: 7px;
+    
+}
+
+.vl {
+    border-left: 4px solid darkblue;
+    height: 660px;
+    position: absolute;
+    left: 3%;
+    margin-left: -3px;
+    top: 130px;
+  }
