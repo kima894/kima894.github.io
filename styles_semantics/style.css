@@ -1,52 +1,94 @@
-@import url('https://fonts.googleapis.com/css2?family=Abel&family=Kanit&family=Zeyada&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Kanit&family=Playfair+Display&family=Zeyada&display=swap');
+
+html{
+    background-color: rgb(213, 221, 250);
+}
+
 body {
-    color: blue;
-    font-family: 'Zeyada', cursive;;
+    color: rgb(105, 105, 251);
+    font-family: 'Abel', sans-serif;
     padding: 2em;
 }
 
 h1 {
-    color: purple;
+    color: rgb(226, 137, 226);
     font-size: 2em;
-    font-family: 'Kanit', sans-serif;;
+    font-family: 'Playfair Display', sans-serif;;
 }
 
-.large-header {
-    color: green;
+a:link {color: rgb(105, 105, 251)}
+a:visited {color: rgb(107, 168, 95);}
+a:hover {color: blueviolet;}
+
+.checkbox{
+    color: rgb(221, 110, 224);
+}
+
+
+.section-title {
+    color: rgb(182, 121, 228);
     font-size: 1.5em;
 }
 
 #tray{
-    background-color: bisque;
+    background-color: rgb(92, 75, 111);
     margin-top: 1em;
     padding: 1em;
 }
 
-#tray ul{
-    font-family: 'Abel', sans-serif;
-    cursor: pointer;
-}
-
-#tray ul:after{
-    content: '+';
+#tray summary::after{
+    content: ' +'; 
 
 }
 
-#tray[open] ul:after{
+#tray[open] summary:after{
+    content: ' -';
+    
+} 
+
+#tray[open] summary:after{
     color: aqua;
     
 }
 
-#tray[open] ul:after{
+
+
+#tray ul{
+    font-family: 'Zeyada', cursive;
+    cursor: pointer;
+    padding: 2em;
+}
+
+
+
+#tray p :last-child{
+    color: red
+} 
+
+/* details[open]{
+color: rgb(182, 194, 240);
+}
+
+
+details ul::after{
+    content: '+'; 
+
+}
+
+details[open] ul:after{
+    color: aqua;
+    
+}
+
+details[open] ul:after{
     content: '-';
     
 }
 
-#tray p :last-child{
+details p :last-child{
     color: red
 }
-
-
+ */
 
 
 
