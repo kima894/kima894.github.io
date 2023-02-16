@@ -4,6 +4,7 @@ html{
     background-color: rgb(213, 221, 250);
 }
 
+
 body {
     color: rgb(105, 105, 251);
     font-family: 'Abel', sans-serif;
@@ -30,15 +31,16 @@ a:hover {color: blueviolet;}
     font-size: 1.5em;
 }
 
+summary{
+    list-style: none;
+}
+
+
+
 #tray{
     background-color: rgb(92, 75, 111);
     margin-top: 1em;
     padding: 1em;
-}
-
-#tray summary::after{
-    content: ' +'; 
-
 }
 
 #tray[open] summary:after{
@@ -46,11 +48,17 @@ a:hover {color: blueviolet;}
     
 } 
 
-#tray[open] summary:after{
-    color: aqua;
-    
+#tray summary::after{
+    content: ' +'; 
+
 }
 
+
+/* 
+#tray[open] summary:after{
+    color: rgb(193, 170, 248);
+    
+} */
 
 
 #tray ul{
