@@ -1,0 +1,25 @@
+html{
+    background-color: antiquewhite;
+}
+
+
+.doors {
+    margin-top: 90px;
+    font-family: sans-serif;
+    display: flex;
+  }
+
+
+  .door1 {
+    position: absolute;
+    margin-top: 5px;
+     margin-left: 0px;
+    width: 13%;
+  }
+  
+  
+  .door1 img {
+
+    width: 100%;
+    object-fit: cover;
+  }
