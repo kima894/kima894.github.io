@@ -12,6 +12,9 @@ p{
   overflow: hidden;
   color: transparent;
       text-shadow: 0 0 1.9px  rgb(255, 245, 235);
+      -webkit-animation: glow 3s ease-in-out infinite alternate;
+      -moz-animation: glow 3s ease-in-out infinite alternate;
+      animation: glow 3s ease-in-out infinite alternate;
 }
 
 
@@ -38,6 +41,7 @@ div {
   animation-iteration-count: 1;
   animation-direction:alternate;
   animation-timing-function: linear;
+
 }
 
 @keyframes slidein {
@@ -52,3 +56,11 @@ div {
   }
 }
 
+@keyframes glow {
+  from {
+    text-shadow: 0 0 2px #fff, 0 0 3px #fff, 0 0 4px #dec3a7, 0 0 5px #d0b69b, 0 0 6px #b7a088, 0 0 7px #a7927b, 0 0 8px #8a7966;
+  }
+  to {
+    text-shadow: 0 0 3px #fff, 0 0 4px #a7927b, 0 0 5px #a7927b, 0 0 6px #a7927b, 0 0 7px #a7927b, 0 0 8px #a7927b, 0 0 9px #a7927b;
+  }
+}
