@@ -2,6 +2,23 @@ html{
     background-color: antiquewhite;
 }
 
+h1{
+  font-size: 70px;
+  text-align: center;
+  top: -50px;
+  color: rgb(145, 119, 92);
+
+  opacity: 60%;
+  overflow: hidden;
+  color: transparent;
+      text-shadow: 0 0 1.9px  rgb(145, 119, 92);
+      -webkit-animation: glow 3s ease-in-out infinite alternate;
+      -moz-animation: glow 3s ease-in-out infinite alternate;
+      animation: glow 3s ease-in-out infinite alternate;
+}
+
+
+
 .doors {
     margin-top: 50px;
     font-family: sans-serif;
@@ -71,3 +88,11 @@ html{
     object-fit: cover;
   }
 
+  @keyframes glow {
+    from {
+      text-shadow: 0 0 2px #816356, 0 0 3px #9e7a6b, 0 0 4px #ad8777, 0 0 5px #b89180, 0 0 6px #ba9686, 0 0 7px #b89180, 0 0 8px #b89180;
+    }
+    to {
+      text-shadow: 0 0 3px #b89180, 0 0 4px #b89180, 0 0 5px #b89180, 0 0 6px #b89180, 0 0 7px #b89180, 0 0 8px #b89180, 0 0 9px #b89180;
+    }
+  }
