@@ -9,7 +9,7 @@ p{
     margin-top: -40px;
     columns: 6;
     column-gap: 25px;
-    opacity: 50%;
+    opacity: 80%;
     overflow: hidden;
     color: transparent;
         text-shadow: 0 0 1.8px  rgb(255, 245, 235);
@@ -21,7 +21,7 @@ p{
 
 
 .boxed{
-    background-color: #8a7966;
+    background-color: #665440;
     width: 1365px;
     height: 705px;
     padding: 200px;
