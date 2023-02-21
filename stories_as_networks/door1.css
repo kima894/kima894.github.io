@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Kanit&family=Playfair+Display&family=Sawarabi+Mincho&family=Ubuntu&family=Zeyada&display=swap');
 html{
   background-color: rgb(255, 245, 235);
   overflow: hidden;
@@ -5,10 +6,11 @@ html{
 
 p{
   font-size: 23px;
+  font-size: 'Sawarabi Mincho';
   color: rgb(255, 245, 235);
   margin-top: -40px;
   columns: 3;
-  opacity: 60%;
+  opacity: 80%;
   overflow: hidden;
   color: transparent;
       text-shadow: 0 0 1.9px  rgb(255, 245, 235);

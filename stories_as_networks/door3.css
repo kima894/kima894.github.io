@@ -1,15 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Kanit&family=Playfair+Display&family=Sawarabi+Mincho&family=Ubuntu&family=Zeyada&display=swap');
+
 html{
     background-color: rgb(255, 245, 235);
     overflow: hidden;
 }
 
 p{
-    font-size: 20px;
-    color: rgb(255, 245, 235);
+    font-size: 17px;
+    font-family: 'Sawarabi Mincho', sans-serif;
     margin-top: -40px;
     columns: 6;
     column-gap: 25px;
-    opacity: 80%;
+    opacity: 90%;
     overflow: hidden;
     color: transparent;
         text-shadow: 0 0 1.8px  rgb(255, 245, 235);
@@ -21,7 +23,7 @@ p{
 
 
 .boxed{
-    background-color: #665440;
+    background-color: #6a5b4c;
     width: 1365px;
     height: 705px;
     padding: 200px;
