@@ -1,0 +1,18 @@
+body{
+    padding: 10vh;
+}
+
+header{
+    
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10vh;
+}
+
+header{
+    height: 50px;
+    background: gold;
+}
