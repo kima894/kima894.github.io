@@ -3,7 +3,7 @@ body{
 }
 
 header{
-    
+margin-bottom: 20vh;
 }
 
 main{
@@ -15,4 +15,29 @@ main{
 header{
     height: 50px;
     background: gold;
+}
+
+figure{
+margin-top: ;
+}
+
+.artwork{
+    height: 50vh;  
+}
+
+.art1{
+    position: relative;
+    width: 500px;
+    height: 700px;
+    border: 5px solid rgb(0, 0, 0);
+    background-color: rgb(9, 131, 143);
+}
+
+.frame{
+    position: relative;
+    width: 310px;
+    height: 600px;
+    border: 15px solid rgb(64, 106, 106);
+    margin-top: -60vh;
+    margin-left: 4.5vh;
 }
