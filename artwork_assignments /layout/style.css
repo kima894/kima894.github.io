@@ -62,3 +62,74 @@ margin-top: ;
     margin-left: 25vh;
 }
 
+
+.canvas{
+    height: 50vh;
+    position: relative;
+    width: 45vh;
+    height: 58vh;
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgb(194, 164, 89);
+}
+
+.red1{
+    height: 6vh;
+    position: relative;
+    width: 10vh;
+    background-color: aquamarine;
+    top: -57vh;
+    left: 1vh;
+}
+
+.red2{
+    height: 6vh;
+    position: relative;
+    width: 10vh;
+    background-color: aquamarine;
+    top: -5vh;
+    left: 1vh;
+}
+
+.red3{
+    height: 6vh;
+    position: relative;
+    width: 10vh;
+    background-color: aquamarine;
+    top: -55vh;
+    left: 1vh;
+}
+.red4{
+    height: 6vh;
+    position: relative;
+    width: 10vh;
+    background-color: aquamarine;
+    top: -53vh;
+    left: 1vh;
+}
+
+.red5{
+    height: 6vh;
+    position: relative;
+    width: 10vh;
+    background-color: aquamarine;
+    top: -51vh;
+    left: 1vh;
+}
+
+.red6{
+    height: 6vh;
+    position: relative;
+    width: 10vh;
+    background-color: aquamarine;
+    top: -49vh;
+    left: 1vh;
+}
+
+.red7{
+    height: 6vh;
+    position: relative;
+    width: 10vh;
+    background-color: aquamarine;
+    top: -47vh;
+    left: 1vh;
+}
