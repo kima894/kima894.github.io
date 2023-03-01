@@ -70,7 +70,6 @@ margin-top: ;
     margin-top: 20vh;
 }
 .canvas{
-    height: 50vh;
     position: relative;
     width: 45vh;
     height: 58vh;
@@ -202,3 +201,51 @@ margin-top: ;
     left: 21vh;
 }
 
+
+.artwork3{
+    margin-top: -80vh;
+}
+.canvas3{
+    position: relative;
+    width: 45vh;
+    height: 58vh;
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgb(214, 203, 177);
+}
+
+.verticalRed{
+    height: 40vh;
+    position: relative;
+    width: 0.2vh;
+    background-color: rgb(113, 16, 16);
+    top: -50vh;
+    left: 22vh;   
+}
+
+.horizontalRed{
+    height: 0.2vh;
+    position: relative;
+    width: 35vh;
+    background-color: rgb(113, 16, 16);
+    top: -70vh;
+    left: 0vh;   
+
+}
+
+.leftRed{
+    height: 0.2vh;
+    position: relative;
+    width: 6vh;
+    background-color: rgb(113, 16, 16);
+    top: -67vh;
+    left: 16vh; 
+}
+
+.topRightRed{
+    height: 0.2vh;
+    position: relative;
+    width: 20vh;
+    background-color: rgb(113, 16, 16);
+    top: -74vh;
+    left: 22vh; 
+}
