@@ -75,8 +75,8 @@ margin-top: ;
 .red1{
     height: 6vh;
     position: relative;
-    width: 10vh;
-    background-color: aquamarine;
+    width: 11vh;
+    background-color: rgb(241, 225, 215);
     top: -57vh;
     left: 1vh;
 }
@@ -84,52 +84,52 @@ margin-top: ;
 .red2{
     height: 6vh;
     position: relative;
-    width: 10vh;
-    background-color: aquamarine;
-    top: -5vh;
+    width: 11vh;
+    background-color: rgb(231, 197, 195);
+    top: -55vh;
     left: 1vh;
 }
 
 .red3{
     height: 6vh;
     position: relative;
-    width: 10vh;
-    background-color: aquamarine;
-    top: -55vh;
+    width: 11vh;
+    background-color: rgb(228, 176, 173);
+    top: -53vh;
     left: 1vh;
 }
 .red4{
     height: 6vh;
     position: relative;
-    width: 10vh;
-    background-color: aquamarine;
-    top: -53vh;
+    width: 11vh;
+    background-color: rgb(217, 93, 86);
+    top: -51vh;
     left: 1vh;
 }
 
 .red5{
     height: 6vh;
     position: relative;
-    width: 10vh;
-    background-color: aquamarine;
-    top: -51vh;
+    width: 11vh;
+    background-color: rgb(170, 70, 65);
+    top: -49vh;
     left: 1vh;
 }
 
 .red6{
     height: 6vh;
     position: relative;
-    width: 10vh;
-    background-color: aquamarine;
-    top: -49vh;
+    width: 11vh;
+    background-color: rgb(82, 28, 25);
+    top: -47vh;
     left: 1vh;
 }
 
 .red7{
     height: 6vh;
     position: relative;
-    width: 10vh;
-    background-color: aquamarine;
-    top: -47vh;
+    width: 11vh;
+    background-color: rgb(22, 7, 6);
+    top: -45vh;
     left: 1vh;
 }
