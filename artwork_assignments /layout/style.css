@@ -1,8 +1,11 @@
 html{
     margin: 0 auto;
+    background-color: rgb(224, 215, 250);
 }
 body{
     padding: 10vh;
+    text-align: center;
+
 }
 
 header{
@@ -17,7 +20,6 @@ main{
 
 header{
     height: 50px;
-    background: gold;
 }
 
 figure{
@@ -26,6 +28,7 @@ margin-top: ;
 
 .artwork{
     height: 50vh;  
+    margin-left: 47vh;
 }
 
 .art1{
@@ -62,12 +65,16 @@ margin-top: ;
     margin-left: 25vh;
 }
 
+.artInfo1{
+    margin-top: 15vh;
+}
 
 
 
 
 .artwork2{
-    margin-top: 20vh;
+    margin-top: 5vh;
+    margin-left: 47vh;
 }
 .canvas{
     position: relative;
@@ -201,9 +208,16 @@ margin-top: ;
     left: 21vh;
 }
 
+.artInfo2{
+    margin-top: -80vh;
+}
+
+
+
 
 .artwork3{
-    margin-top: -80vh;
+    margin-top: 5vh;
+    margin-left: 47vh;
 }
 .canvas3{
     position: relative;
@@ -235,17 +249,112 @@ margin-top: ;
 .leftRed{
     height: 0.2vh;
     position: relative;
-    width: 6vh;
+    width: 4vh;
     background-color: rgb(113, 16, 16);
     top: -67vh;
-    left: 16vh; 
+    left: 18vh; 
 }
 
 .topRightRed{
-    height: 0.2vh;
+    height: 0.1vh;
     position: relative;
     width: 20vh;
     background-color: rgb(113, 16, 16);
     top: -74vh;
     left: 22vh; 
+}
+
+.grayBlock{
+    height: 7vh;
+    position: relative;
+    width: 7vh;
+    background-color: rgb(150, 150, 154);
+    top: -70.6vh;
+    left: 4vh;
+}
+
+.beigeBlock{
+    height: 5vh;
+    position: relative;
+    width: 8vh;
+    background-color: rgb(187, 168, 147);
+    top: -77.4vh;
+    left: 32vh;
+}
+
+.bottomeGray{
+    height: 10vh;
+    position: relative;
+    width: 1.5vh;
+    background-color: rgb(150, 150, 154);
+    top: -79.5vh;
+    left: 17vh; 
+}
+
+.topGray{
+    height: 13vh;
+    position: relative;
+    width: .7vh;
+    background-color: rgb(150, 150, 154);
+    top: -109.2vh;
+    left: 32vh;  
+}
+
+.blackLine{
+    height: 13vh;
+    position: relative;
+    width: .2vh;
+    background-color: rgb(0, 0, 0);
+    top: -105.3vh;
+    left: 40vh;   
+}
+
+/* .bottomBlack{
+    height: 10vh;
+    position: relative;
+    width: 2vh;
+    background-color: rgb(0, 0, 0);
+    top: -110vh;
+    left: 17vh; 
+} */
+
+.blackBlockPart1{
+    height: 9.9vh;
+    position: relative;
+    width: .3vh;
+    background-color: rgb(0, 0, 0);
+    top: -115.45vh;
+    left: 16.7vh; 
+}
+
+.blackBlockPart2{
+    height: 1.5vh;
+    position: relative;
+    width: 1.8vh;
+    background-color: rgb(0, 0, 0);
+    top: -115.5vh;
+    left: 16.7vh;  
+}
+
+.topBlack{
+    height: 20vh;
+    position: relative;
+    width: .7vh;
+    background-color: rgb(0, 0, 0);
+    top: -150vh;
+    left: 33.5vh;  
+}
+
+.blackCircle{
+    height: 8vh;
+    position: relative;
+    width: 8vh;
+    background-color: rgb(0, 0, 0);
+    top: -130vh;
+    left: 18vh; 
+    border-radius: 50%;
+}
+
+.artInfo3{
+    margin-top: -124vh;
 }
