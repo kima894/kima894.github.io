@@ -63,6 +63,12 @@ margin-top: ;
 }
 
 
+
+
+
+.artwork2{
+    margin-top: 20vh;
+}
 .canvas{
     height: 50vh;
     position: relative;
@@ -76,7 +82,7 @@ margin-top: ;
     height: 6vh;
     position: relative;
     width: 11vh;
-    background-color: rgb(241, 225, 215);
+    background-color: rgb(246, 235, 229);
     top: -57vh;
     left: 1vh;
 }
@@ -133,3 +139,66 @@ margin-top: ;
     top: -45vh;
     left: 1vh;
 }
+
+.blue1{
+    height: 6vh;
+    position: relative;
+    width: 11vh;
+    background-color: rgb(230, 233, 249);
+    top: -99vh;
+    left: 21vh;
+}
+
+.blue2{
+    height: 6vh;
+    position: relative;
+    width: 11vh;
+    background-color: rgb(208, 213, 243);
+    top: -97vh;
+    left: 21vh;
+}
+
+.blue3{
+    height: 6vh;
+    position: relative;
+    width: 11vh;
+    background-color: rgb(178, 187, 239);
+    top: -95vh;
+    left: 21vh;
+}
+.blue4{
+    height: 6vh;
+    position: relative;
+    width: 11vh;
+    background-color: rgb(55, 76, 198);
+    top: -93vh;
+    left: 21vh;
+}
+
+.blue5{
+    height: 6vh;
+    position: relative;
+    width: 11vh;
+    background-color: rgb(43, 57, 138);
+    top: -91vh;
+    left: 21vh;
+}
+
+.blue6{
+    height: 6vh;
+    position: relative;
+    width: 11vh;
+    background-color: rgb(14, 22, 73);
+    top: -89vh;
+    left: 21vh;
+}
+
+.blue7{
+    height: 6vh;
+    position: relative;
+    width: 11vh;
+    background-color: rgb(6, 9, 27);
+    top: -87vh;
+    left: 21vh;
+}
+
