@@ -1,0 +1,64 @@
+body{
+    background: black;
+margin: 0 auto;
+}
+
+.flower1{
+    animation: floating 3s infinite;
+}
+
+@keyframes floating{
+    0%{
+        transform: translateY(0px)scale(1);
+    }
+    25%{
+        transform: translateY(250px)scale(1);
+    }
+    50%{
+        transform: translateY(500px)scale(1);
+    }
+    75%{
+        transform: translateY(250px)scale(1);
+    }
+    100%{
+        transform: translateY(0px)scale(1); 
+    }
+}
+
+
+
+
+
+#flower{
+    width: 90vw;
+    margin-top: -90vh;
+    margin-left: 10vh;
+
+}
+
+@keyframes color{
+    0%{
+        fill: default
+    }
+    100%{
+        fill:#202775 
+    }
+}
+
+path{
+    animation: color 5s infinite;
+}
+
+
+.glow{
+    width: 500px;
+    height: 500px;
+    background: rgb(245, 245, 232);
+    border-radius: 50%;
+    animation: floating 3s infinite;
+    margin-left: 55vh;
+    margin-top: 20vh;
+    filter: blur(100px);
+}
+
+
