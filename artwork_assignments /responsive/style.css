@@ -1,3 +1,7 @@
+/* :root{
+    --spacing: 10vw
+} */
+
 html{
     margin: 0 auto;
     background-color: rgb(224, 215, 250);
@@ -5,7 +9,7 @@ html{
 body{
     padding: 10vh;
     text-align: center;
-
+/* padding: var(--spacing); */
 }
 
 header{
@@ -28,7 +32,7 @@ margin-top: ;
 
 .artwork{
     height: 50vh;  
-    margin-left: 47vh;
+    margin-left: 50vh;
 }
 
 .art1{
@@ -69,3 +73,14 @@ margin-top: ;
     margin-top: 15vh;
 }
 
+@media (min-width: 375px){
+    .artwork{
+        margin-left: -11vh;
+    }
+}
+
+@media (min-width: 600px){
+    .artwork{
+        margin-left: -8vh;
+    }
+}
