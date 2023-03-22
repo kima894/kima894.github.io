@@ -1,0 +1,177 @@
+html{
+    margin: 0 auto;
+    background-color: rgb(222, 222, 222);
+}
+
+.mat{
+    position: fixed;
+    height: 30vh;
+    width: 90vh;
+    transform: skew(-5deg);
+    background: repeating-linear-gradient(
+      to right,
+      #c90c0c 0px,
+      #c90c0c 20px,
+      #ffffff 20px,
+      #ffffff 40px
+      
+    );
+   top: 37vh;
+   left: 30vh;
+}
+
+
+/* 
+.table{
+    position: fixed;
+    width: 200vh;
+    height: 25vh;
+    background-color: rgb(229, 229, 229);
+    left: -5vh;
+    top: 37vh;
+} */
+
+/* .white-eye{
+    width: 0;
+    height: 0;
+    border: 50px solid transparent;
+    border-bottom-color: red;
+    position: relative;
+    top: -50px;
+    border-radius: 50% 20% / 10% 40%;
+}
+
+.white-eye:after {
+    content: '';
+    position: absolute;
+    left: -50px;
+    top: 50px;
+    width: 0;
+    height: 0;
+    border: 50px solid transparent;
+    border-top-color: red;
+  } */
+
+  .white-eye{
+    position: relative;
+    height: 6vh;
+    width: 15vh;
+    background-color: rgb(0, 0, 0);
+    outline: .3vh solid  rgb(255, 255, 255);
+    border-radius: 50%;
+    left: 3vh;
+    top: 8vh;
+  }
+
+.blue-eye{
+    position: relative;
+    height: 5vh;
+    width: 5vh;
+    background-image: radial-gradient(rgb(0, 0, 0), rgb(55, 121, 214), rgb(249, 249, 249));
+    border-radius: 50%;
+    left: 8vh;
+    top: 2.5vh;
+}
+
+
+.orange{
+    position: relative;
+    height: 13vh;
+    width: 14vh;
+    background-color: rgb(221, 88, 43);
+    border-radius: 50%;
+    top: 35vh;
+    left: 90vh;
+}
+
+.orange-light{
+    position: relative;
+    height: 5vh;
+    width: 5vh;
+    background-image: radial-gradient(rgb(253, 220, 210), rgb(230, 112, 72), rgb(221, 88, 43));
+    border-radius: 50%;
+    top: 25vh;
+    left: 92vh;
+}
+
+.orange-shadow{
+    position: relative;
+    height: 3vh;
+    width: 3vh;
+    background-image: radial-gradient(rgb(169, 50, 13), rgb(206, 80, 38), rgb(221, 88, 43));
+    border-radius: 50%;
+    top: 25vh;
+    left: 92vh;  
+}
+
+.book{
+    position: relative;
+    width: 200px;
+    height: 250px;
+    transform: skew(7deg);
+    background: rgb(0, 0, 0);
+    top: -3vh;
+    left: 60vh;
+}
+
+
+
+.whole-peach{
+    position: relative;
+    top: -27vh;
+}
+
+.peach{
+    position: relative;
+    height: 13vh;
+    width: 14vh;
+    background-color: rgb(241, 135, 117);
+    border-radius: 50%;
+    top: 18vh;
+    left: 77vh;
+}
+
+.peach-gradient{
+    position: relative;
+    height: 7vh;
+    width: 7vh;
+    background-image: radial-gradient(rgb(241, 135, 117), rgb(255, 176, 111), rgb(234, 110, 88));
+    border-radius: 50%;
+    top: 10vh;
+    left: 82vh; 
+}
+
+.peach-light{
+    position: relative;
+    height: 3vh;
+    width: 3vh;
+    background-image: radial-gradient(rgb(253, 220, 210), rgb(243, 145, 128), rgb(241, 135, 117));
+    border-radius: 50%;
+    top: 1vh;
+    left: 78vh;
+}
+
+.black{
+    position: relative;
+    height: 1.5vh;
+    width: 1.5vh;
+    background-color: black;
+    border-radius: 50%;
+    top: 3vh;
+    left: 85vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
