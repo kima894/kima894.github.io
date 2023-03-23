@@ -1,0 +1,171 @@
+[
+    {
+        "name": "Siberian Squill",
+        "botanicalName": "Scilla siberica",
+        "native": "Southwestern Russia, the Caucasus, and Turkey",
+        "symbolism": "Loyalty, fidelity, and consistency",
+        "plantType": "Herb",
+        "bloomTime": "Spring",
+        "picture": "./collection_project/siberian_squill.jpg"
+    },
+    {
+        "name": "Saucer magnolia",
+        "botanicalName": "Magnolia soulangeana",
+        "native": "Europe",
+        "symbolism": "Longevity and perseverance, nobility, love for nature, feminine sweetness and beauty",
+        "plantType": "Tree",
+        "bloomTime": "Spring"   
+    },
+    {
+        "name": "Grape hyacinth",
+        "botanicalName": "Muscari neglectum",
+        "native": "Eurasia",
+        "symbolism": "Fertility , sport, play",
+        "plantType": "Herb",
+        "bloomTime": "Spring"   
+    },
+    {
+        "name": "Chinese wisteria",
+        "botanicalName": "Wisteria sinensis",
+        "native": "China",
+        "symbolism": "Live for love, fertility, long life, devotion, creativity",
+        "plantType": "Vine",
+        "bloomTime": "Mid spring, late spring, early summer"   
+    },
+    {
+        "name": "Didier's tulip",
+        "botanicalName": "Tulipa gesneriana",
+        "native": "Southwest asia",
+        "symbolism": "Love , charity, fame, beauty, blessing, eternity, eternal blessing",
+        "plantType": "Herb",
+        "bloomTime": "Spring , late winter"   
+    },
+    {
+        "name": "Bigleaf hydrangea",
+        "botanicalName": "Hydrangea macrophylla",
+        "native": "Japan",
+        "symbolism": "Gratitude for understanding, strong emotions, apology, boastfulness",
+        "plantType": "Shrub",
+        "bloomTime": "Summer"   
+    },
+    {
+        "name": "Japanese Cherry",
+        "botanicalName": "Prunus serrulata",
+        "native": "Japan",
+        "symbolism": "Love, divination, birth, death, heroism, violence, life is short and",
+        "plantType": "Tree",
+        "bloomTime": "Spring"   
+    },
+    {
+        "name": "Wild Blue Phlox",
+        "botanicalName": "Phlox divaricata",
+        "native": "Eastern North America",
+        "symbolism": "Our souls are united",
+        "plantType": "Herb",
+        "bloomTime": "Mid spring, Late spring, Early summer, Mid summer"   
+    },
+    {
+        "name": "Moss phlox",
+        "botanicalName": "Phlox subulata",
+        "native": "United states",
+        "symbolism": "Maternal love, charity, complicity, understanding",
+        "plantType": "Herb",
+        "bloomTime": "Mid spring, Late spring, Summer"   
+    },
+    {
+        "name": "Siberian bugloss",
+        "botanicalName": "Brunnera macrophylla",
+        "native": "Caucasus",
+        "symbolism": "Wisdom and logic",
+        "plantType": "Herb",
+        "bloomTime": "Spring, summer"   
+    },
+    {
+        "name": "Red osier dogwood",
+        "botanicalName": "Cornus sericea",
+        "native": "North America",
+        "symbolism": "Wishes, protection, charm, strength, purity, a proposal of marriage",
+        "plantType": "Shrub",
+        "bloomTime": "Summer"   
+    },
+    {
+        "name": "Spanish bluebells",
+        "botanicalName": "Hyacinthoides hispanica",
+        "native": "Iberian Peninsula",
+        "symbolism": "Humility, consistency",
+        "plantType": "Herb",
+        "bloomTime": "Spring"   
+    },
+    {
+        "name": "Guelder rose",
+        "botanicalName": "Viburnum opulus",
+        "native": "the woodlands of the European deciduous forest, north Asia and north Africa",
+        "symbolism": "Love, psychic powers, healing, holiness, cultural roots, the beauty of a young woman",
+        "plantType": "Shrub",
+        "bloomTime": "Late spring, Early summer, Mid summer"   
+    },
+    {
+        "name": "Wild pansy",
+        "botanicalName": "Viola Tricolor",
+        "native": "North America",
+        "symbolism": "Meditation, happiness, please miss me, memory, spirituality",
+        "plantType": "Herb",
+        "bloomTime": "Spring, Early summer, Winter"   
+    },
+    {
+        "name": "Garden cosmos",
+        "botanicalName": "Cosmos bipinnatus",
+        "native": "Mexico",
+        "symbolism": "Persistent happiness, order, harmony",
+        "plantType": "Herb",
+        "bloomTime": "Mid summer, Late summer, Fall, Early winter"   
+    },
+    {
+        "name": "Horned pansy",
+        "botanicalName": "Viola cornuta",
+        "native": "Northern Spain",
+        "symbolism": "Meditation, happiness, please miss me, memory, spirituality",
+        "plantType": "Herb",
+        "bloomTime": "Spring, Summer, Early fall, Mid fall"   
+    },
+    {
+        "name": "Faassen's catnip",
+        "botanicalName": "Nepeta faassenii",
+        "native": "Middle east",
+        "symbolism": "Happiness, fertility, and love",
+        "plantType": "Herb",
+        "bloomTime": "Late spring, summer, fall"   
+    },
+    {
+        "name": "Woodland sage",
+        "botanicalName": "Salvia nemorosa",
+        "native": "Europe and eastern asia",
+        "symbolism": "Family happiness, family values",
+        "plantType": "Herb",
+        "bloomTime": "Late spring, summer, fall"   
+    },
+    {
+        "name": "Horse chestnut buckeye",
+        "botanicalName": "Aesculus hippocastanum",
+        "native": "Southeastern europe",
+        "symbolism": "Luxury, uniqueness, growth, longevity",
+        "plantType": "Tree",
+        "bloomTime": "Spring"   
+    },
+    {
+        "name": "Spider flower",
+        "botanicalName": "Tarenaya hassleriana",
+        "native": "South america",
+        "symbolism": "True love, elope with me",
+        "plantType": "Herb",
+        "bloomTime": "Summer, Fall"   
+    },
+    {
+        "name": "Wild Daffodil",
+        "botanicalName": "Narcissus pseudonarcissus",
+        "native": "Forest of the mediterranean",
+        "symbolism": "Regard, Unrequited love, respect, new life, new beginning",
+        "plantType": "Herb",
+        "bloomTime": "Spring"   
+    }
+]
