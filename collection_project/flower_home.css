@@ -20,3 +20,9 @@ body{
     top: 20vh;
 }
 
+.nonnative{
+    position: relative;
+
+    left: 75vh;
+    top: -45vh;
+}
