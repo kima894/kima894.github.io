@@ -10,7 +10,7 @@ body{
 
 html{
     margin: 0 auto;
-    background-image: url("native_background.jpeg");
+    background-image: url("nonnative_background2.jpeg");
 }
 .gallery{
     display: grid;
@@ -24,7 +24,7 @@ html{
 }
 
 h1{
-    color: rgb(170, 124, 219);
+    color: rgb(71, 90, 162);
     font-size: 10vh;
     font-family: 'Great Vibes', cursive;
         /* font-family: 'Cormorant', serif; */
