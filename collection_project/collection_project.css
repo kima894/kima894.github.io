@@ -1,3 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,500;1,500&family=Farsan&family=Fasthand&family=Gloria+Hallelujah&family=Great+Vibes&family=Indie+Flower&family=Shadows+Into+Light&display=swap');
+body{
+    /* font-family: 'Indie Flower', cursive; */
+    /* font-family: 'Farsan', cursive; */
+    /* font-family: 'Gloria Hallelujah', cursive; */
+    /* font-family: 'Cormorant', serif; */
+    /* font-family: 'Shadows Into Light', cursive; */
+        font-family: 'Cormorant', serif;
+}
+
 html{
     background-image: url("background.jpeg");
 }
@@ -12,6 +22,46 @@ html{
     width: 30vw;
 }
 
-.gallery-botanical{
-    color: blue;
+h1{
+    color: rgb(39, 73, 175);
+    font-size: 10vh;
+    font-family: 'Great Vibes', cursive;
+        /* font-family: 'Cormorant', serif; */
+
 }
+
+.name{
+
+    font-size: 3vh;
+}
+
+.botanical{
+    color: rgb(59, 169, 55);
+    font-size: 2vh;
+
+}
+
+.origin{
+    color: rgb(40, 127, 37);
+    font-size: 2vh;
+
+}
+
+.meaning{
+    color: rgb(33, 107, 31);
+    font-size: 2vh;
+
+}
+
+.type{
+    color: rgb(27, 84, 25);
+    font-size: 2vh;
+
+}
+
+.time{
+    color: rgb(17, 52, 15); 
+    font-size: 2vh;
+ 
+}
+

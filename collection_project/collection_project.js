@@ -204,26 +204,39 @@ function generateGalleryItems(galleryItems){
     const paragraph = document.createElement("p")
     //change the inner html of the paragraph to the sign name 
     paragraph.innerHTML = galleryItems.name 
+    paragraph.classList.add('name') // add a class
+    // paragraph.innerHTML = 'Name: '+ galleryItems.name
+
 
     const botanical = document.createElement("p")
     //change the inner html of the paragraph to the sign name 
     botanical.innerHTML = galleryItems.botanicalName  
+    botanical.classList.add('botanical') // add a class
+    botanical.innerHTML = 'Botanical name: '+ galleryItems.botanicalName
 
     const origin = document.createElement("p")
     //change the inner html of the paragraph to the sign name 
     origin.innerHTML = galleryItems.native  
+    origin.classList.add('origin') // add a class
+    origin.innerHTML = 'Native to: '+ galleryItems.native
 
     const type = document.createElement("p")
     //change the inner html of the paragraph to the sign name 
     type.innerHTML = galleryItems.plantType  
+    type.classList.add('type') // add a class
+    type.innerHTML = 'Plant type: '+ galleryItems.plantType
 
     const meaning = document.createElement("p")
     //change the inner html of the paragraph to the sign name 
     meaning.innerHTML = galleryItems.symbolism  
+    meaning.classList.add('meaning') // add a class
+    meaning.innerHTML = 'Symbolism: '+ galleryItems.symbolism
     
     const time = document.createElement("p")
     //change the inner html of the paragraph to the sign name 
     time.innerHTML = galleryItems.bloomTime 
+    time.classList.add('time') // add a class
+    time.innerHTML = 'Bloom time: '+ galleryItems.bloomTime
 
     const galleryItem = document.createElement("div") // creates a new div called gallery item
         //add the paragraph into the galleryItem div
@@ -246,6 +259,7 @@ function generateGalleryItems(galleryItems){
     }
     
     galleryItems.forEach(generateGalleryItems)
+    
     
     
 
