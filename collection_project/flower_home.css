@@ -1,0 +1,22 @@
+html{
+    margin: 0 auto;
+    background-image: url("green_flower.jpeg");
+}
+body{
+    color: blue;
+    
+}
+.purple{
+    position: relative;
+
+    left: 20vh;
+    top: 45vh;
+}
+
+.pink{
+    position: relative;
+
+    left: 85vh;
+    top: 20vh;
+}
+

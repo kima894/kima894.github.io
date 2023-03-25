@@ -9,6 +9,7 @@ body{
 }
 
 html{
+    margin: 0 auto;
     background-image: url("background.jpeg");
 }
 .gallery{
@@ -65,3 +66,14 @@ h1{
  
 }
 
+/* 
+@media screen and (max-width: 375px) {
+    html{
+        background-color: blue;
+    }
+    h1{
+        color: rgb(71, 39, 175);
+        font-size: 1vh;
+
+    }
+} */
