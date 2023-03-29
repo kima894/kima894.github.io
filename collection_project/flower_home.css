@@ -8,8 +8,7 @@ body{
 }
 .purple{
     position: relative;
-
-    left: 20vh;
+    left: 25vh;
     top: 45vh;
 }
 
@@ -26,3 +25,21 @@ body{
     left: 75vh;
     top: -45vh;
 }
+
+/* .purpleDot{
+    position: absolute;
+    left: 36vh;
+    bottom: 21vh;
+} */
+
+
+
+/* p:hover, h1:hover, a:hover {
+    background-color: yellow;
+  } */
+
+  /* span:hover + .purple {
+    display: block; 
+    animation-duration: 10s;
+
+  } */

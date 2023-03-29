@@ -30,7 +30,7 @@ animation: fade 2s infinite;
             }
         }   
 
-circle{
+#circle{
     animation: color 2s infinite; 
 }
 
