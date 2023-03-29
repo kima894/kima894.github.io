@@ -1,36 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,500;1,500&family=Farsan&family=Fasthand&family=Gloria+Hallelujah&family=Great+Vibes&family=Indie+Flower&family=Shadows+Into+Light&display=swap');
+
 html{
     margin: 0 auto;
     background-image: url("green_flower.jpeg");
 }
-body{
-    color: blue;
-    
+
+h1{
+    color: rgb(23, 81, 19);
+    font-size: 10vh;
+    font-family: 'Great Vibes', cursive;
+        /* font-family: 'Cormorant', serif; */
+        margin-top: 3vh;
+
 }
-.purple{
+
+.key{
+    position: absolute;
+    font-family: 'Cormorant', serif;
+    top: 17vh;
+    left: 75vh;
+    color: rgb(40, 149, 40);
+}
+
+body{
+    /* font-family: 'Indie Flower', cursive; */
+    /* font-family: 'Farsan', cursive; */
+    /* font-family: 'Gloria Hallelujah', cursive; */
+    /* font-family: 'Cormorant', serif; */
+    /* font-family: 'Shadows Into Light', cursive; */
+        font-family: 'Cormorant', serif;
+}
+/* .purple{
     position: relative;
     left: 25vh;
     top: 45vh;
-}
+}*/
 
 .pink{
     position: relative;
 
-    left: 85vh;
+    left: -5vh;
     top: 20vh;
 }
 
 .nonnative{
     position: relative;
 
-    left: 75vh;
-    top: -45vh;
+    left: 15vh;
+    top: 36vh;
 }
 
-.purpleDot{
+/* .purpleDot{
     position: absolute;
     left: 36vh;
     bottom: 21vh;
-}
+}  */
 
 
 

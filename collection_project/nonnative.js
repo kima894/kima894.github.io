@@ -9,7 +9,7 @@ let galleryItems = [
         "picture": "/assests/siberian_squill.jpg"
     },
     {
-        "name": "Saucer magnolia",
+        "name": "Saucer Magnolia",
         "botanicalName": "Magnolia soulangeana",
         "native": "Europe",
         "symbolism": "Longevity and perseverance, nobility, love for nature, feminine sweetness and beauty",
@@ -18,7 +18,7 @@ let galleryItems = [
         "picture": "/assests/saucer_magnolia.jpg"   
     },
     {
-        "name": "Grape hyacinth",
+        "name": "Grape Hyacinth",
         "botanicalName": "Muscari neglectum",
         "native": "Eurasia",
         "symbolism": "Fertility, sport, play",
@@ -27,7 +27,7 @@ let galleryItems = [
         "picture": "/assests/grape_hyacinth.jpg"   
     },
     {
-        "name": "Chinese wisteria",
+        "name": "Chinese Wisteria",
         "botanicalName": "Wisteria sinensis",
         "native": "China",
         "symbolism": "Live for love, fertility, long life, devotion, creativity",
@@ -36,7 +36,7 @@ let galleryItems = [
         "picture": "/assests/chinese_wisteria.jpg"      
     },
     {
-        "name": "Didier's tulip",
+        "name": "Didier's Tulip",
         "botanicalName": "Tulipa gesneriana",
         "native": "Southwest asia",
         "symbolism": "Love, charity, fame, beauty, blessing, eternity, eternal blessing",
@@ -45,7 +45,7 @@ let galleryItems = [
         "picture": "/assests/didier's_tulip.jpg"    
     },
     {
-        "name": "Bigleaf hydrangea",
+        "name": "Bigleaf Hydrangea",
         "botanicalName": "Hydrangea macrophylla",
         "native": "Japan",
         "symbolism": "Gratitude for understanding, strong emotions, apology, boastfulness",
@@ -63,7 +63,7 @@ let galleryItems = [
         "picture": "/assests/japanese_cherry.jpg"  
     },
     {
-        "name": "Siberian bugloss",
+        "name": "Siberian Bugloss",
         "botanicalName": "Brunnera macrophylla",
         "native": "Caucasus",
         "symbolism": "Wisdom and logic",
@@ -72,7 +72,7 @@ let galleryItems = [
         "picture": "/assests/siberian_bugloss.jpg"     
     },
     {
-        "name": "Spanish bluebells",
+        "name": "Spanish Bluebells",
         "botanicalName": "Hyacinthoides hispanica",
         "native": "Iberian Peninsula",
         "symbolism": "Humility, consistency",
@@ -81,7 +81,7 @@ let galleryItems = [
         "picture": "/assests/Spanish_bluebells.jpg"     
     },
     {
-        "name": "Guelder rose",
+        "name": "Guelder Rose",
         "botanicalName": "Viburnum opulus",
         "native": "the woodlands of the European deciduous forest, north Asia and north Africa",
         "symbolism": "Love, psychic powers, healing, holiness, cultural roots, the beauty of a young woman",
@@ -90,7 +90,7 @@ let galleryItems = [
         "picture": "/assests/Guelder-rose.jpg"     
     },
     {
-        "name": "Garden cosmos",
+        "name": "Garden Cosmos",
         "botanicalName": "Cosmos bipinnatus",
         "native": "Mexico",
         "symbolism": "Persistent happiness, order, harmony",
@@ -99,7 +99,7 @@ let galleryItems = [
         "picture": "/assests/garden_cosmos.jpg"     
     },
     {
-        "name": "Horned pansy",
+        "name": "Horned Pansy",
         "botanicalName": "Viola cornuta",
         "native": "Northern Spain",
         "symbolism": "Meditation, happiness, please miss me, memory, spirituality",
@@ -108,7 +108,7 @@ let galleryItems = [
         "picture": "/assests/Horned_pansy.jpg"     
     },
     {
-        "name": "Faassen's catnip",
+        "name": "Faassen's Catnip",
         "botanicalName": "Nepeta faassenii",
         "native": "Middle east",
         "symbolism": "Happiness, fertility, and love",
@@ -117,7 +117,7 @@ let galleryItems = [
         "picture": "/assests/Faassen's_catnip.jpg"     
     },
     {
-        "name": "Woodland sage",
+        "name": "Woodland Sage",
         "botanicalName": "Salvia nemorosa",
         "native": "Europe and eastern asia",
         "symbolism": "Family happiness, family values",
@@ -126,7 +126,7 @@ let galleryItems = [
         "picture": "/assests/woodland_sage.jpg"     
     },
     {
-        "name": "Horse chestnut buckeye",
+        "name": "Horse Chestnut Buckeye",
         "botanicalName": "Aesculus hippocastanum",
         "native": "Southeastern europe",
         "symbolism": "Luxury, uniqueness, growth, longevity",
@@ -135,7 +135,7 @@ let galleryItems = [
         "picture": "/assests/horse_chestnut_buckeye.jpg"     
     },
     {
-        "name": "Spider flower",
+        "name": "Spider Flower",
         "botanicalName": "Tarenaya hassleriana",
         "native": "South america",
         "symbolism": "True love, elope with me",

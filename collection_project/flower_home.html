@@ -8,16 +8,18 @@
     <script defer src="flower_home.js"></script>
     <title>Document</title>
 </head>
+<h1>Flowers in New York</h1>
 <body>
+    <div class="key"> Purple = all <br> Pink = native <br> Blue = nonnative</div>
     <!-- <div class="purple">
         <a href="/collection_project.html">
             <img src="purple.png" width="500vh"/> </img>
           </a>
 
     </div> -->
-    <div class="pink">
+  <div class="pink">
         <a href="/native.html">
-            <img src="pink.png" width="200vh"/> </img>
+            <img src="pink.png" width="250vh"/> </img>
           </a>
     </div>
 
@@ -25,6 +27,10 @@
         <a href="/nonnative.html">
             <img src="nonnative.png" width="200vh"/> </img>
           </a>
+    </div> 
+
+
+
 
     <!-- <style>
         .purple {
@@ -47,9 +53,9 @@
 
          -->
 
+
+         <!-- purple -->
          <html2>
-            <head>
-            <meta name="viewport" content="width=device-width, initial-scale=1">
             <style>
             /* Popup container - can be anything you want */
             .popup {
@@ -60,8 +66,8 @@
               -moz-user-select: none;
               -ms-user-select: none;
               user-select: none;
-              left: -120vh;
-              bottom: -80vh;
+              left: -30vh;
+              bottom: -5vh;
             }
             
             /* The actual popup */
@@ -77,8 +83,8 @@
               position: absolute;
               z-index: 1;
               bottom: 35vh;
-              left: 0vh;
-              margin-left: -80px;
+              left: 20vh;
+              margin-left: -300px;
             }
             
             /* Popup arrow
@@ -132,13 +138,13 @@
             </script>
             
             </body>
-            </html2>
+            </html>
 
 
 
 
-
-
+<!-- pink 
+<html2>
                 <style>
                 /* Popup container - can be anything you want */
                 .pinkpopup {
@@ -183,7 +189,7 @@
                 }  */
                 
                 /* Toggle this class - hide and show the popup */
-                .pinkpopup .show {
+                .pinkpopup .showpink {
                   visibility: visible;
                   -webkit-animation: fadeIn 0s;
                   animation: fadeIn 0s;
@@ -215,13 +221,103 @@
                 <script>
                 // When the user clicks on div, open the popup
                 function myFunction() {
-                  var popup = document.getElementById("mypinkPopup");
-                  popup.classList.toggle("show");
+                  var pinkpopup = document.getElementById("mypinkPopup");
+                  pinkpopup.classList.toggle("showpink");
                 }
                 </script>
                 
                 </body>
                 </html2>
+-->
+
+<!-- nonnative 
+<html3>
+                <style>
+                    /* Popup container - can be anything you want */
+                    .nonativepopup {
+                      position: relative;
+                      display: inline-block;
+                      cursor: pointer;
+                      -webkit-user-select: none;
+                      -moz-user-select: none;
+                      -ms-user-select: none;
+                      user-select: none;
+                      left: -100vh;
+                      bottom: -90vh;
+                    }
+                    
+                    /* The actual popup */
+                    .nonativepopup .nonativepopuptext {
+                      visibility: hidden;
+                      width: 0px;
+                      height: 0vh;
+                      background-color: #555;
+                      color: #fff;
+                      text-align: center;
+                      border-radius: 6px;
+                      padding: 8px 0;
+                      position: absolute;
+                      z-index: 1;
+                      bottom: 37vh;
+                      left: -1vh;
+                      margin-left: -80px;
+                    }
+                    
+                    /* Popup arrow
+                    .popup .popuptext::after {
+                      content: "";
+                      position: absolute;
+                      top: 100%;
+                      left: 50%;
+                      margin-left: -5px;
+                      border-width: 5px;
+                      border-style: solid;
+                      border-color: #555 transparent transparent transparent;
+                    }  */
+                    
+                    /* Toggle this class - hide and show the popup */
+                    .nonativepopup .show {
+                      visibility: visible;
+                      -webkit-animation: fadeIn 0s;
+                      animation: fadeIn 0s;
+                    }
+                    
+                    /* Add animation (fade in the popup) */
+                    @-webkit-keyframes fadeIn {
+                      from {opacity: 0;} 
+                      to {opacity: 1;}
+                    }
+                    
+                    @keyframes fadeIn {
+                      from {opacity: 0;}
+                      to {opacity:1 ;}
+                    }
+                    </style>
+                    </head>
+                    <body style="text-align:center">
+                    
+                 
+                    
+                    <div class="nonativepopup" onclick="myFunction()"> <img src="nonative_dot.png" width="350vh"/> </img>
+                      <span class="nonativepopuptext" id="mynonativePopup">       
+                         <a href="/nonnative.html">
+                        <img src="nonative.png" width="500vh"/> </img>
+                      </a></span>
+                    </div>
+                    
+                    <script>
+                    // When the user clicks on div, open the popup
+                    function myFunction() {
+                      var popup = document.getElementById("mynonativePopup");
+                      popup.classList.toggle("show");
+                    }
+                    </script>
+                    
+                    </body>
+                    </html3>
+
+ -->
+
             
 </body>
 </html>

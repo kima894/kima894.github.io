@@ -9,7 +9,7 @@ let galleryItems = [
         "picture": "/assests/wild_blue_phlox.jpg"     
     },
     {
-        "name": "Moss phlox",
+        "name": "Moss Phlox",
         "botanicalName": "Phlox subulata",
         "native": "United states",
         "symbolism": "Maternal love, charity, complicity, understanding",
@@ -18,7 +18,7 @@ let galleryItems = [
         "picture": "/assests/moss_phlox.jpg"     
     },
     {
-        "name": "Red osier dogwood",
+        "name": "Red Osier Dogwood",
         "botanicalName": "Cornus sericea",
         "native": "North America",
         "symbolism": "Wishes, protection, charm, strength, purity, a proposal of marriage",
@@ -27,7 +27,7 @@ let galleryItems = [
         "picture": "/assests/red_osier_dogwood.jpg"     
     },
     {
-        "name": "Wild pansy",
+        "name": "Wild Pansy",
         "botanicalName": "Viola Tricolor",
         "native": "North America",
         "symbolism": "Meditation, happiness, please miss me, memory, spirituality",
