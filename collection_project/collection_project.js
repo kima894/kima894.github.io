@@ -15,7 +15,7 @@ let galleryItems = [
             "symbolism": "Longevity and perseverance, nobility, love for nature, feminine sweetness and beauty",
             "plantType": "Tree",
             "bloomTime": "Spring",
-            "picture": "/assests/saucer_magnolia.jpg"   
+            "picture": "./collection_project/assests/saucer_magnolia.jpg"   
         },
         {
             "name": "Grape Hyacinth",
@@ -24,7 +24,7 @@ let galleryItems = [
             "symbolism": "Fertility, sport, play",
             "plantType": "Herb",
             "bloomTime": "Spring",
-            "picture": "/assests/grape_hyacinth.jpg"   
+            "picture": "./collection_project/assests/grape_hyacinth.jpg"   
         },
         {
             "name": "Chinese Wisteria",
