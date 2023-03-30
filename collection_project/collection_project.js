@@ -6,7 +6,7 @@ let galleryItems = [
             "symbolism": "Loyalty, fidelity, and consistency",
             "plantType": "Herb",
             "bloomTime": "Spring",
-            "picture": "./assests/siberian_squill.jpg"
+            "picture": "./collection_project/assests/siberian_squill.jpg"
         },
         {
             "name": "Saucer Magnolia",
