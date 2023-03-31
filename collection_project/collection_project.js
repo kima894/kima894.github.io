@@ -33,7 +33,7 @@ let galleryItems = [
             "symbolism": "Live for love, fertility, long life, devotion, creativity",
             "plantType": "Vine",
             "bloomTime": "Mid spring, late spring, early summer",
-            "picture": "/assests/chinese_wisteria.jpg"      
+            "picture": "./assests/chinese_wisteria.jpg"      
         },
         {
             "name": "Didier's Tulip",
@@ -42,7 +42,7 @@ let galleryItems = [
             "symbolism": "Love, charity, fame, beauty, blessing, eternity, eternal blessing",
             "plantType": "Herb",
             "bloomTime": "Spring , late winter", 
-            "picture": "/assests/didier's_tulip.jpg"    
+            "picture": "./assests/didier's_tulip.jpg"    
         },
         {
             "name": "Bigleaf Hydrangea",
@@ -51,7 +51,7 @@ let galleryItems = [
             "symbolism": "Gratitude for understanding, strong emotions, apology, boastfulness",
             "plantType": "Shrub",
             "bloomTime": "Summer",   
-            "picture": "/assests/bigleaf_hydrangea.jpg"  
+            "picture": "./assests/bigleaf_hydrangea.jpg"  
         },
         {
             "name": "Japanese Cherry",
@@ -60,7 +60,7 @@ let galleryItems = [
             "symbolism": "Love, divination, birth, death, heroism, violence, life is short and",
             "plantType": "Tree",
             "bloomTime": "Spring",   
-            "picture": "/assests/japanese_cherry.jpg"  
+            "picture": "./assests/japanese_cherry.jpg"  
         },
         {
             "name": "Wild Blue Phlox",
@@ -69,7 +69,7 @@ let galleryItems = [
             "symbolism": "Our souls are united",
             "plantType": "Herb",
             "bloomTime": "Mid spring, Late spring, Early summer, Mid summer",
-            "picture": "/assests/wild_blue_phlox.jpg"     
+            "picture": "./assests/wild_blue_phlox.jpg"     
         },
         {
             "name": "Moss Phlox",
@@ -78,7 +78,7 @@ let galleryItems = [
             "symbolism": "Maternal love, charity, complicity, understanding",
             "plantType": "Herb",
             "bloomTime": "Mid spring, Late spring, Summer",
-            "picture": "/assests/moss_phlox.jpg"     
+            "picture": "./assests/moss_phlox.jpg"     
         },
         {
             "name": "Siberian Bugloss",
@@ -87,7 +87,7 @@ let galleryItems = [
             "symbolism": "Wisdom and logic",
             "plantType": "Herb",
             "bloomTime": "Spring, summer",
-            "picture": "/assests/siberian_bugloss.jpg"     
+            "picture": "./assests/siberian_bugloss.jpg"     
         },
         {
             "name": "Red Osier Dogwood",
@@ -96,7 +96,7 @@ let galleryItems = [
             "symbolism": "Wishes, protection, charm, strength, purity, a proposal of marriage",
             "plantType": "Shrub",
             "bloomTime": "Summer",
-            "picture": "/assests/red_osier_dogwood.jpg"     
+            "picture": "./assests/red_osier_dogwood.jpg"     
         },
         {
             "name": "Spanish Bluebells",
@@ -105,7 +105,7 @@ let galleryItems = [
             "symbolism": "Humility, consistency",
             "plantType": "Herb",
             "bloomTime": "Spring",
-            "picture": "/assests/Spanish_bluebells.jpg"     
+            "picture": "./assests/Spanish_bluebells.jpg"     
         },
         {
             "name": "Guelder Rose",
@@ -114,7 +114,7 @@ let galleryItems = [
             "symbolism": "Love, psychic powers, healing, holiness, cultural roots, the beauty of a young woman",
             "plantType": "Shrub",
             "bloomTime": "Late spring, Early summer, Mid summer",
-            "picture": "/assests/Guelder-rose.jpg"     
+            "picture": "./assests/Guelder-rose.jpg"     
         },
         {
             "name": "Wild Pansy",
@@ -123,7 +123,7 @@ let galleryItems = [
             "symbolism": "Meditation, happiness, please miss me, memory, spirituality",
             "plantType": "Herb",
             "bloomTime": "Spring, Early summer, Winter",
-            "picture": "/assests/wild_pansy.jpg"     
+            "picture": "./assests/wild_pansy.jpg"     
         },
         {
             "name": "Garden Cosmos",
@@ -132,7 +132,7 @@ let galleryItems = [
             "symbolism": "Persistent happiness, order, harmony",
             "plantType": "Herb",
             "bloomTime": "Mid summer, Late summer, Fall, Early winter",
-            "picture": "/assests/garden_cosmos.jpg"     
+            "picture": "./assests/garden_cosmos.jpg"     
         },
         {
             "name": "Horned Pansy",
@@ -141,7 +141,7 @@ let galleryItems = [
             "symbolism": "Meditation, happiness, please miss me, memory, spirituality",
             "plantType": "Herb",
             "bloomTime": "Spring, Summer, Early fall, Mid fall",
-            "picture": "/assests/Horned_pansy.jpg"     
+            "picture": "./assests/Horned_pansy.jpg"     
         },
         {
             "name": "Faassen's Catnip",
@@ -150,7 +150,7 @@ let galleryItems = [
             "symbolism": "Happiness, fertility, and love",
             "plantType": "Herb",
             "bloomTime": "Late spring, summer, fall",
-            "picture": "/assests/Faassen's_catnip.jpg"     
+            "picture": "./assests/Faassen's_catnip.jpg"     
         },
         {
             "name": "Woodland Sage",
@@ -159,7 +159,7 @@ let galleryItems = [
             "symbolism": "Family happiness, family values",
             "plantType": "Herb",
             "bloomTime": "Late spring, summer, fall",
-            "picture": "/assests/woodland_sage.jpg"     
+            "picture": "./assests/woodland_sage.jpg"     
         },
         {
             "name": "Horse Chestnut Buckeye",
@@ -168,7 +168,7 @@ let galleryItems = [
             "symbolism": "Luxury, uniqueness, growth, longevity",
             "plantType": "Tree",
             "bloomTime": "Spring",
-            "picture": "/assests/horse_chestnut_buckeye.jpg"     
+            "picture": "./assests/horse_chestnut_buckeye.jpg"     
         },
         {
             "name": "Spider Flower",
@@ -177,7 +177,7 @@ let galleryItems = [
             "symbolism": "True love, elope with me",
             "plantType": "Herb",
             "bloomTime": "Summer, Fall",
-            "picture": "/assests/spider_flower.jpg"     
+            "picture": "./assests/spider_flower.jpg"     
         },
         {
             "name": "Wild Daffodil",
@@ -186,7 +186,7 @@ let galleryItems = [
             "symbolism": "Regard, Unrequited love, respect, new life, new beginning",
             "plantType": "Herb",
             "bloomTime": "Spring",
-            "picture": "/assests/wild_daffodil.jpg"     
+            "picture": "./assests/wild_daffodil.jpg"     
         }
 ]
     
