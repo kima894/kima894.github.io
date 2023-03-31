@@ -6,7 +6,7 @@ let galleryItems = [
         "symbolism": "Our souls are united",
         "plantType": "Herb",
         "bloomTime": "Mid spring, Late spring, Early summer, Mid summer",
-        "picture": "/assests/wild_blue_phlox.jpg"     
+        "picture": "./assests/wild_blue_phlox.jpg"     
     },
     {
         "name": "Moss Phlox",
@@ -15,7 +15,7 @@ let galleryItems = [
         "symbolism": "Maternal love, charity, complicity, understanding",
         "plantType": "Herb",
         "bloomTime": "Mid spring, Late spring, Summer",
-        "picture": "/assests/moss_phlox.jpg"     
+        "picture": "./assests/moss_phlox.jpg"     
     },
     {
         "name": "Red Osier Dogwood",
@@ -24,7 +24,7 @@ let galleryItems = [
         "symbolism": "Wishes, protection, charm, strength, purity, a proposal of marriage",
         "plantType": "Shrub",
         "bloomTime": "Summer",
-        "picture": "/assests/red_osier_dogwood.jpg"     
+        "picture": "./assests/red_osier_dogwood.jpg"     
     },
     {
         "name": "Wild Pansy",
@@ -33,7 +33,7 @@ let galleryItems = [
         "symbolism": "Meditation, happiness, please miss me, memory, spirituality",
         "plantType": "Herb",
         "bloomTime": "Spring, Early summer, Winter",
-        "picture": "/assests/wild_pansy.jpg"     
+        "picture": "./assests/wild_pansy.jpg"     
     },
 ]
 
