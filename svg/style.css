@@ -1,13 +1,54 @@
 html{
     background-color: rgb(238, 231, 214);
+    margin: auto 0;
 }
 .info1{
     position: relative;
     left: 5vh;
-    top: -135vh;
+    top: -470vh;
 }
 .info2{
     position: relative;
     left: 5vh;
-    top: -60vh;
+    top: -410vh;
+}
+
+.original{
+    position: relative;
+    top: -180vh;
+}
+
+.alter{
+    position: relative;
+    top: -290vh;
+}
+
+.background{
+    position: relative;
+    fill: rgb(141, 198, 233);
+    stroke: rgb(46, 139, 196);
+}
+
+.redline{
+    fill: rgb(90, 48, 129);
+}
+
+.blackline{
+    fill: rgb(194, 100, 201);
+}
+
+.greyline{
+    fill: rgb(211, 109, 146);
+    stroke: rgb(70, 100, 175);
+
+}
+
+.beigeline{
+    fill: rgb(93, 217, 95);
+    stroke: rgb(56, 132, 58);
+}
+
+.blackcircle{
+    fill: rgb(111, 111, 252);
+    stroke: azure;
 }
