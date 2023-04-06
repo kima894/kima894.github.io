@@ -1,0 +1,13 @@
+html{
+    background-color: rgb(238, 231, 214);
+}
+.info1{
+    position: relative;
+    left: 5vh;
+    top: -135vh;
+}
+.info2{
+    position: relative;
+    left: 5vh;
+    top: -60vh;
+}
