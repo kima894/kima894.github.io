@@ -1,3 +1,33 @@
+:root {
+    --spacing: 16px; 
+}
+
+@media (min-width: 600px) {
+    :root {
+        --spacing: 32px; 
+    }
+}
+
 body{
-    background-color: yellow;
+    font-family: sans-serif;
+}
+
+header {
+    background-color: rgb(106, 106, 179);
+}
+
+h1{
+    font-size: 200%;
+}
+
+aside {
+    background-color: rgb(199, 139, 255);
+}
+
+footer{
+    background-color: rgb(95, 181, 95);
+}
+
+.inset {
+    padding: var(--spacing);
 }
