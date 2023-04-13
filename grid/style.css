@@ -18,10 +18,16 @@ body{
 
 header {
     background-color: rgb(106, 106, 179);
+    top: 1vh;
+    position: sticky;
 }
 
 h1{
     font-size: 200%;
+}
+
+main{
+    overflow-x: scroll;
 }
 
 aside {
@@ -34,4 +40,20 @@ footer{
 
 .inset {
     padding: var(--spacing);
+}
+
+#breedList{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: var(--spacing);
+    row-gap: calc(var(--spacing) * 2);
+}
+
+#breedList li{
+    background-color: rgb(173, 120, 223);
+    border-radius: .5vh;
+    aspect-ratio: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
