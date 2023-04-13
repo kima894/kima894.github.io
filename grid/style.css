@@ -6,6 +6,14 @@
     :root {
         --spacing: 32px; 
     }
+    body{
+    grid-template-columns: 2fr 1 fr;
+    grid-template-rows: 200px 1fr min-content;
+    grid-template-areas:         
+    "header header"
+    "aside main"
+    "footer footer";
+    }
 }
 
 body{
@@ -14,12 +22,18 @@ body{
     grid-template-columns: 1fr .5fr;
     grid-template-rows: 150px min-content 1fr min-content; 
     min-height: 100vh;
+    grid-template-areas: 
+        "header"
+        "aside"
+        "main"
+        "footer";
 } 
 
 header {
     background-color: rgb(106, 106, 179);
     top: 1vh;
     position: sticky;
+    grid-area: header;
 }
 
 h1{
@@ -28,14 +42,19 @@ h1{
 
 main{
     overflow-x: scroll;
+    grid-area: main;
 }
 
 aside {
     background-color: rgb(199, 139, 255);
+    grid-area: aside;
+
 }
 
 footer{
     background-color: rgb(95, 181, 95);
+    grid-area: footer;
+
 }
 
 .inset {
