@@ -1,0 +1,102 @@
+<html lang="en">
+3
+  <head>
+4
+​
+5
+    <meta charset="utf-8" />
+6
+<!--     <meta name="viewport" content="width=device-width, initial-scale=1" /> -->
+7
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+8
+        <script src="https://aframe.io/releases/1.4.0/aframe.min.js"></script>
+9
+    <script src="https://unpkg.com/aframe-environment-component/dist/aframe-environment-component.min.js"></script>
+10
+    <script src="https://cdn.jsdelivr.net/gh/donmccurdy/aframe-extras@v6.1.1/dist/aframe-extras.min.js"></script>
+11
+​
+12
+    <title>a-frame basics</title>
+13
+​
+14
+  </head>
+15
+  <body>
+16
+    <a-scene color-space="sRGB" renderer="colorManagement: true; physicallyCorrectLights: true;" light="defaultLightsEnabled: false" reflection="directionaLight:a-light#dirLight;">
+17
+      <!--       <a-box color="red" position="0 2 -5" rotation="0 45 45" scale="2 2 2"></a-box> -->
+18
+      <a-assets>
+19
+        <img id="skyTexture" src="https://dl.polyhaven.org/file/ph-assets/HDRIs/extra/Tonemapped%20JPG/kloppenheim_02_puresky.jpg">
+20
+        <a-asset-item 
+21
+        id="bear" 
+22
+        src="https://cdn.glitch.me/6464b8c7-572e-474a-8e7f-1590f01f0acd/little-bear_2.gltf?v=1677702809000">
+23
+        </a-asset-item>
+24
+        
+25
+        <!-- <img id="floorTexture" src="https://cdn.glitch.global/6464b8c7-572e-474a-8e7f-1590f01f0acd/PaintedMetal006_1K_Color.jpg?v=1677702549618"> -->
+26
+        
+27
+      </a-assets>
+28
+      <a-entity>
+29
+        <a-gltf-model
+30
+          rotation="0 0 0"
+31
+          position="0 0 0"
+32
+          scale="1 1 1"
+33
+          src="#bear"
+34
+          animation-mixer>
+35
+          
+36
+        </a-gltf-model>
+37
+      </a-entity>
+38
+       <a-camera position="-0.081 0.644 2.478" look-controls="enabled: true"></a-camera>
+39
+  
+40
+      <a-sky src="#skyTexture"></a-sky>
+41
+      <!-- <a-plane rotation="-90 0 0" width="30" height="30" src="#floorTexture"></a-plane> -->
+42
+      
+43
+  <a-light id="dirLight" type="directional" intensity="2.5"  position="0 2 3"></a-light>
+44
+  <a-light type="ambient" intensity="0.5"></a-light>
+45
+​
+46
+    </a-scene>
+47
+    
+48
+ 
+49
+  </body>
+50
+</html>
+51
+​
+Remix to Edit 
+
+Report Abuse
