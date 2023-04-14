@@ -4,23 +4,15 @@
 
 @media (min-width: 600px) {
     :root {
-        --spacing: 32px; 
-    }
-    body{
-    grid-template-columns: 2fr 1 fr;
-    grid-template-rows: 200px 1fr min-content;
-    grid-template-areas:         
-    "header header"
-    "aside main"
-    "footer footer";
+        --spacing: 40px; 
     }
 }
 
 body{
     font-family: sans-serif;
     display: grid;
-    grid-template-columns: 1fr .5fr;
-    grid-template-rows: 150px min-content 1fr min-content; 
+    grid-template-columns: 1fr;
+    grid-template-rows: 110px min-content 1fr min-content; 
     min-height: 100vh;
     grid-template-areas: 
         "header"
@@ -28,6 +20,9 @@ body{
         "main"
         "footer";
 } 
+
+
+
 
 header {
     background-color: rgb(106, 106, 179);
@@ -62,8 +57,9 @@ footer{
 }
 
 #breedList{
+    --column-count: 2;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(var(--column-count), 1fr);
     column-gap: var(--spacing);
     row-gap: calc(var(--spacing) * 2);
 }
@@ -75,4 +71,31 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+
+
+@media (min-width: 600px) {
+    body{
+    grid-template-columns: 1fr;
+    grid-template-rows: 90px 1fr min-content;
+    grid-template-areas:         
+    "header header"
+    "aside main"
+    "footer footer";
+    }
+
+    #breedlList{
+        --column-count: ;
+    }
+}
+
+@media (min-width: 1280px) {
+    body{
+    grid-template-columns: 1fr 4fr 1fr;
+    }
+
+    #breedlList{
+        --column-count: 5;
+    }
 }
