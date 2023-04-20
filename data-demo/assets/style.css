@@ -1,0 +1,57 @@
+body {
+    --spacing: 24px;
+
+    font-family: sans-serif;
+    padding: var( --spacing);
+    display: grid;
+    gap: calc(var(--spacing) * 2);
+}
+
+@media (min-width: 600px) {
+    body { 
+        --spacing: 32px;
+    }
+}
+
+h1 {
+    font-size: 200%;
+    font-weight: bold;
+}
+
+label { opacity: 50%; }
+
+select, ul {
+    background-color: #eee;
+    border-radius: calc(var(--spacing) / 4);
+}
+
+select {
+    margin-left: calc(var(--spacing) / 4);
+    padding: calc(var(--spacing) / 4);
+    text-align: center;
+    width: fit-content;
+}
+
+#graph {
+    /* Add up the individual counts, from the JS. */
+    --total: calc(var(--gray) + var(--cinnamon) + var(--black) + var(--undefined));
+
+    display: flex;
+    height: calc(var(--spacing) * 3);
+    overflow: hidden;
+}
+
+/* Ease the widths, when we change via dropdown. */
+#graph li { 
+    transition: width 1s ease-in-out;
+    border-right: 3px solid #eee;
+}
+
+/* Calculate from the JS variable. */
+#graph .beagle { width: calc(var(--beagle) / var(--total) * 100%); }
+#graph .chihuahua { width: calc(var(--chihuahua) / var(--total) * 100%); }
+#graph .poodle { width: calc(var(--poodle) / var(--total) * 100%); }
+
+.beagle { background-color: gray; }
+.chihuahua { background-color: #a51; }
+.poodle { background-color: #444; }
