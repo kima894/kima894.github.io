@@ -1,4 +1,18 @@
+html{
+     background-color: rgb(155, 203, 154);
+}
 
 body{
      text-align: center; 
 }
+
+h1{
+     font-size: 15vh;
+}
+
+p{
+     position: relative;
+     height: 150vh;
+     color: beige;
+}
+
