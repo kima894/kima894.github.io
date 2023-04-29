@@ -1,3 +1,5 @@
+const dropdown = document.querySelector('#animalgender') // Get the dropdown menu
+
 // Function to render your items
 const renderItems = (collection) => {
 	// The `ul` where the items will be inserted
@@ -40,12 +42,44 @@ const renderItems = (collection) => {
 	})
 }
 
+// collection.forEach(dog => {
+// 	if (dog.breedname == 'Beagle') beagleCount = beagleCount + 1 // Increment the counter
+// 	// if (squirrel.breedname == 'Beagle') beagleCount++ // Shorthand for incrementing
+// 	else pugcount = pugcount + 1
+// })
+
+
+// 	console.log('Beagle: ' + beagleCount)
+// 	console.log('Pug: ' + pugcount)
+
+
+let localData = [] // Set up an empty object for our local data (`let` because it will change)
+
+
+dropdown.oninput = () => {
+	// Filter the locally-copied data
+	const genderF = localData.filter(dog => dog.animalgender == 'F')
+	const genderM = localData.filter(dog => dog.animalgender == 'M')
+
+	// Parse either set depending on the dropdown value
+	if (dropdown.value == 'Female') renderItems(genderF)
+	else if (dropdown.value == 'Male') renderItems(genderM)
+	else renderItems(localData) // Send the whole, unfiltered dataset
+
+	console.log('F' + animalbirth + animalgender + animalname)
+}
 
 
 // Fetch gets your JSON file…
 fetch('assets/collection.json')
 	.then(response => response.json())
 	.then(collection => {
+		localData = collection
+		parseData(localData)
 		// And passes the data to the function, above!
 		renderItems(collection.reverse()) // In reverse order
 	})
+
+
+
+

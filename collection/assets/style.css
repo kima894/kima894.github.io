@@ -40,3 +40,9 @@ li {
 
 .faded { opacity: 0.333 }
 
+label { opacity: 50%; }
+
+select, ul {
+    background-color: #eee;
+    border-radius: calc(var(--spacing) / 4);
+}
