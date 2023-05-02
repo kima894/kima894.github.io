@@ -57,6 +57,13 @@ const renderItems = (collection) => {
 let localData = [] // Set up an empty object for our local data (`let` because it will change)
 
 
+dropdown_breed.onchange = () => {
+	const breed = localData.filter(dog => dog.breedname == 'Labrador Retriever');
+	renderItems(breed)
+	
+	}
+
+
 dropdown.onchange = () => {
 	// Filter the locally-copied data
 	// const all = localData.filter(dog)
@@ -85,11 +92,7 @@ dropdown.onchange = () => {
 	// console.log('F' + animalbirth + animalgender + animalname)
 }
 
-dropdown_breed.onchange = () => {
-const breed = localData.filter(dog => dog.breedname == dropdown_breed.value);
-renderItems(breed)
 
-}
 
 
 // Fetch gets your JSON file…
