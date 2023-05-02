@@ -1,10 +1,11 @@
 const dropdown = document.querySelector('#animalgender') // Get the dropdown menu
+const dropdown_breed = document.querySelector('#animalbreed') // Get the dropdown menu
 
 // Function to render your items
 const renderItems = (collection) => {
 	// The `ul` where the items will be inserted
 	const collectionList = document.getElementById('collection')
-
+	collectionList.innerHTML = "";
 
 	// Loop through each item in the collection array
 	collection.forEach((item) => {
@@ -56,17 +57,38 @@ const renderItems = (collection) => {
 let localData = [] // Set up an empty object for our local data (`let` because it will change)
 
 
-dropdown.oninput = () => {
+dropdown.onchange = () => {
 	// Filter the locally-copied data
-	const genderF = localData.filter(dog => dog.animalgender == 'F')
-	const genderM = localData.filter(dog => dog.animalgender == 'M')
+	// const all = localData.filter(dog)
+	const genderF = localData.filter(dog => dog.animalgender == 'F');
+	const genderM = localData.filter(dog => dog.animalgender == 'M');
+	
+	
+	// const all = localData.filter()
+
 
 	// Parse either set depending on the dropdown value
-	if (dropdown.value == 'Female') renderItems(genderF)
-	else if (dropdown.value == 'Male') renderItems(genderM)
-	else renderItems(localData) // Send the whole, unfiltered dataset
+	if (dropdown.value == 'Female'){
+		renderItems(genderF);
+		console.log(localData);
+	}
+	else if (dropdown.value == 'Male') {
+		renderItems(genderM) ;
+	
+	}
+	// else if (dropdown.value == 'All') renderItems(all)
+	else  {
+		renderItems(localData) ;
+	
+	} // Send the whole, unfiltered dataset
 
-	console.log('F' + animalbirth + animalgender + animalname)
+	// console.log('F' + animalbirth + animalgender + animalname)
+}
+
+dropdown_breed.onchange = () => {
+const breed = localData.filter(dog => dog.breedname == dropdown_breed.value);
+renderItems(breed)
+
 }
 
 
@@ -75,7 +97,7 @@ fetch('assets/collection.json')
 	.then(response => response.json())
 	.then(collection => {
 		localData = collection
-		parseData(localData)
+		// parseData(localData)
 		// And passes the data to the function, above!
 		renderItems(collection.reverse()) // In reverse order
 	})
