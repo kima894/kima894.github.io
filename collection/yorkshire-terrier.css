@@ -1,17 +1,20 @@
 /* Just to make the demo easier to work with. */
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Concert+One&family=Kalam:wght@300;400;700&family=Kanit&family=Playfair+Display&family=Sawarabi+Mincho&family=Ubuntu&family=Zeyada&display=swap');
 
 :root {
 	--spacing: 1em;
 }
 
 html{
-	background-color: rgb(185, 185, 255);
+	background-color: rgb(164, 225, 135);
 }
 
 body {
 	font-family: sans-serif;
 	padding: var(--spacing);
 	padding-bottom: 33vh;
+	font-family: 'Concert One', cursive;
+
 }
 
 aside { margin-bottom: calc(4 * var(--spacing)); }
@@ -19,6 +22,7 @@ aside { margin-bottom: calc(4 * var(--spacing)); }
 h1 { 
 	font-size: 300%; 
 	text-align: center;
+	color: azure;
 }
 
 h2 { font-weight: bold; }
@@ -32,7 +36,7 @@ em { font-style: italic }
 ul {
 	display: grid;
 	grid-template-columns: 5fr 5fr 5fr;
-	gap: calc(4 * var(--spacing));
+	gap: calc(7 * var(--spacing));
 	/* margin-top: calc(4 * var(--spacing)); */
 	padding-left: 10vh;
 }
