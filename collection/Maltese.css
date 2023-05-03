@@ -1,0 +1,63 @@
+/* Just to make the demo easier to work with. */
+
+:root {
+	--spacing: 1em;
+}
+
+html{
+	background-color: rgb(185, 185, 255);
+}
+
+body {
+	font-family: sans-serif;
+	padding: var(--spacing);
+	padding-bottom: 33vh;
+}
+
+aside { margin-bottom: calc(4 * var(--spacing)); }
+
+h1 { 
+	font-size: 300%; 
+	text-align: center;
+}
+
+h2 { font-weight: bold; }
+
+a { color: blue; }
+
+
+
+em { font-style: italic }
+
+ul {
+	display: grid;
+	grid-template-columns: 5fr 5fr 5fr;
+	gap: calc(4 * var(--spacing));
+	/* margin-top: calc(4 * var(--spacing)); */
+	padding-left: 10vh;
+}
+
+li {
+	display: grid;
+	gap: var(--spacing);
+}
+
+.faded { opacity: 0.333 }
+
+label { opacity: 50%; }
+
+select, ul {
+    border-radius: calc(var(--spacing) / 4);
+}
+
+.lab{
+	position: relative;
+	text-align: center;
+	padding: 5vh;
+}
+
+.homeButton{
+	position: fixed;
+	width: 10vh;
+	left: .5vh;
+}
