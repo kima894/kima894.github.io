@@ -59,7 +59,7 @@ let localData = [] // Set up an empty object for our local data (`let` because i
 
 dropdown_breed.onchange = () => {
 
-	const breed = localData.filter(dog => dog.breedname == 'Labrador Retriever');
+	const breed = localData.filter(dog => dog.breedname == 'Chihuahua');
 
 	renderItems(breed)
 	// console.log(breed)
