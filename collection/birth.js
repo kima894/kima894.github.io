@@ -1,5 +1,4 @@
-const dropdown = document.querySelector('#animalgender') // Get the dropdown menu
-const dropdown_breed = document.querySelector('#animalbreed') // Get the dropdown menu
+const dropdown_birth = document.querySelector('#animalbirth') // Get the dropdown menu
 
 // Function to render your items
 const renderItems = (collection) => {
@@ -57,78 +56,92 @@ const renderItems = (collection) => {
 let localData = [] // Set up an empty object for our local data (`let` because it will change)
 
 
-dropdown_breed.onchange = () => {
-	const all = localData.filter(dog => dog.breedname == '');
-	const breed = localData.filter(dog => dog.breedname == 'Labrador Retriever');
-	const Mbreed = localData.filter(dog => dog.breedname == 'Maltese');
-	const Cbreed = localData.filter(dog => dog.breedname == 'Chihuahua');
-	const Pbreed = localData.filter(dog => dog.breedname == 'Poodle');
-	const Ybreed = localData.filter(dog => dog.breedname == 'Yorkshire Terrier');
-	const Ubreed = localData.filter(dog => dog.breedname == 'Unknown');
+dropdown_birth.onchange = () => {
+	const all = localData.filter(dog => dog.animalbirth == '');
+    const year0 = localData.filter(dog => dog.animalbirth == '2000');
+	const year1 = localData.filter(dog => dog.animalbirth == '2001');
+	const year2 = localData.filter(dog => dog.animalbirth == '2002');
+	const year3 = localData.filter(dog => dog.animalbirth == '2003');
+	const year4 = localData.filter(dog => dog.animalbirth == '2004');
+	const year5 = localData.filter(dog => dog.animalbirth == '2005');
+	const year6 = localData.filter(dog => dog.animalbirth == '2006');
+	const year7 = localData.filter(dog => dog.animalbirth == '2007');
+	const year8 = localData.filter(dog => dog.animalbirth == '2008');
+	const year9 = localData.filter(dog => dog.animalbirth == '2009');
+	const year10 = localData.filter(dog => dog.animalbirth == '2010');
+	const year11 = localData.filter(dog => dog.animalbirth == '2011');
+	const year12 = localData.filter(dog => dog.animalbirth == '2012');
+	const year13 = localData.filter(dog => dog.animalbirth == '2013');
 
 
-	if (dropdown_breed.value == 'Labrador Retriever'){
-		renderItems(breed);
+	if (dropdown_birth.value == '2000'){
+		renderItems(year0);
 		console.log(localData);
 	}
-	else if (dropdown_breed.value == 'Maltese') {
-		renderItems(Mbreed)
+    else if (dropdown_birth.value == '2001') {
+		renderItems(year1)
 	
 	}
-	else if (dropdown_breed.value == 'Chihuahua') {
-		renderItems(Cbreed)
+	else if (dropdown_birth.value == '2002') {
+		renderItems(year2)
 	
 	}
-	else if (dropdown_breed.value == 'Poodle') {
-		renderItems(Pbreed)
+	else if (dropdown_birth.value == '2003') {
+		renderItems(year3)
 	
 	}
-	else if (dropdown_breed.value == 'Yorkshire Terrier') {
-		renderItems(Ybreed)
+    else if (dropdown_birth.value == '2004') {
+		renderItems(year4)
 	
 	}
-	else if (dropdown_breed.value == 'Unknown') {
-		renderItems(Ubreed)
+	else if (dropdown_birth.value == '2005') {
+		renderItems(year5)
+	
+	}
+	else if (dropdown_birth.value == '2006') {
+		renderItems(year6)
+	
+	}
+	else if (dropdown_birth.value == '2007') {
+		renderItems(year7)
+	
+	}
+	else if (dropdown_birth.value == '2008') {
+		renderItems(year8)
+	
+	}
+    else if (dropdown_birth.value == '2009') {
+		renderItems(year9)
+	
+	}
+	else if (dropdown_birth.value == '2010') {
+		renderItems(year10)
+	
+	}
+	else if (dropdown_birth.value == '2011') {
+		renderItems(year11)
+	
+	}
+	else if (dropdown_birth.value == '2012') {
+		renderItems(year12)
+	
+	}
+	else if (dropdown_birth.value == '2013') {
+		renderItems(year13)
+	
+	}
+    else if (dropdown_birth.value == '2014') {
+		renderItems(year14)
 	
 	}
 	else  {
 		renderItems(all);	
 	}
+
 	// console.log(breed)
 }
 
 
-
-// var result = localData.filter(dog => dog.breedname == 'Labrador Retriever');
-// console.log(result)
-
-// dropdown.onchange = () => {
-// 	// Filter the locally-copied data
-// 	// const all = localData.filter(dog)
-// 	const genderF = localData.filter(dog => dog.animalgender == 'F');
-// 	const genderM = localData.filter(dog => dog.animalgender == 'M');
-	
-	
-// 	// const all = localData.filter()
-
-
-// 	// Parse either set depending on the dropdown value
-// 	if (dropdown.value == 'Female'){
-// 		renderItems(genderF);
-// 		console.log(localData);
-// 	}
-// 	else if (dropdown.value == 'Male') {
-// 		renderItems(genderM) ;
-	
-// 	}
-// 	// else if (dropdown.value == 'All') renderItems(all)
-// 	else  {
-// 		renderItems(localData) ;
-	
-// 	} // Send the whole, unfiltered dataset
-
-// 	// console.log('F' + animalbirth + animalgender + animalname)
-// }
 
 
 

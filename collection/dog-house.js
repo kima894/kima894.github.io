@@ -1,5 +1,4 @@
-const dropdown = document.querySelector('#animalgender') // Get the dropdown menu
-const dropdown_breed = document.querySelector('#animalbreed') // Get the dropdown menu
+const dropbtn = document.querySelector('#animalbreed') // Get the dropdown menu
 
 // Function to render your items
 const renderItems = (collection) => {
@@ -57,38 +56,28 @@ const renderItems = (collection) => {
 let localData = [] // Set up an empty object for our local data (`let` because it will change)
 
 
-dropdown_breed.onchange = () => {
 
-	const breed = localData.filter(dog => dog.breedname == 'Chihuahua');
-
-	renderItems(breed)
-	// console.log(breed)
-}
 
 
 
 // var result = localData.filter(dog => dog.breedname == 'Labrador Retriever');
 // console.log(result)
 
-dropdown.onchange = () => {
+dropbtn.onchange = () => {
 	// Filter the locally-copied data
 	// const all = localData.filter(dog)
-	const genderF = localData.filter(dog => dog.animalgender == 'F');
-	const genderM = localData.filter(dog => dog.animalgender == 'M');
+    const breed = localData.filter(dog => dog.breedname == 'Chihuahua');
 	
 	
 	// const all = localData.filter()
 
 
 	// Parse either set depending on the dropdown value
-	if (dropdown.value == 'Female'){
-		renderItems(genderF);
+	if (dropbtn.value == 'Chihuahua'){
+		renderItems(breed);
 		console.log(localData);
 	}
-	else if (dropdown.value == 'Male') {
-		renderItems(genderM) ;
-	
-	}
+
 	// else if (dropdown.value == 'All') renderItems(all)
 	else  {
 		renderItems(localData) ;

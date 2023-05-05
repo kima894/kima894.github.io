@@ -1,5 +1,5 @@
 const dropdown = document.querySelector('#animalgender') // Get the dropdown menu
-const dropdown_breed = document.querySelector('#animalbreed') // Get the dropdown menu
+// const dropdown_breed = document.querySelector('#animalbreed') // Get the dropdown menu
 
 // Function to render your items
 const renderItems = (collection) => {
@@ -54,81 +54,43 @@ const renderItems = (collection) => {
 // 	console.log('Pug: ' + pugcount)
 
 
-let localData = [] // Set up an empty object for our local data (`let` because it will change)
+let breed = [] // Set up an empty object for our local data (`let` because it will change)
 
 
-dropdown_breed.onchange = () => {
-	const all = localData.filter(dog => dog.breedname == '');
-	const breed = localData.filter(dog => dog.breedname == 'Labrador Retriever');
-	const Mbreed = localData.filter(dog => dog.breedname == 'Maltese');
-	const Cbreed = localData.filter(dog => dog.breedname == 'Chihuahua');
-	const Pbreed = localData.filter(dog => dog.breedname == 'Poodle');
-	const Ybreed = localData.filter(dog => dog.breedname == 'Yorkshire Terrier');
-	const Ubreed = localData.filter(dog => dog.breedname == 'Unknown');
 
-
-	if (dropdown_breed.value == 'Labrador Retriever'){
-		renderItems(breed);
-		console.log(localData);
-	}
-	else if (dropdown_breed.value == 'Maltese') {
-		renderItems(Mbreed)
-	
-	}
-	else if (dropdown_breed.value == 'Chihuahua') {
-		renderItems(Cbreed)
-	
-	}
-	else if (dropdown_breed.value == 'Poodle') {
-		renderItems(Pbreed)
-	
-	}
-	else if (dropdown_breed.value == 'Yorkshire Terrier') {
-		renderItems(Ybreed)
-	
-	}
-	else if (dropdown_breed.value == 'Unknown') {
-		renderItems(Ubreed)
-	
-	}
-	else  {
-		renderItems(all);	
-	}
-	// console.log(breed)
-}
 
 
 
 // var result = localData.filter(dog => dog.breedname == 'Labrador Retriever');
 // console.log(result)
 
-// dropdown.onchange = () => {
-// 	// Filter the locally-copied data
-// 	// const all = localData.filter(dog)
-// 	const genderF = localData.filter(dog => dog.animalgender == 'F');
-// 	const genderM = localData.filter(dog => dog.animalgender == 'M');
+dropdown.onchange = () => {
+	// Filter the locally-copied data
+	// const all = localData.filter(dog)
+	const genderF = breed.filter(dog => dog.animalgender == 'F');
+	const genderM = breed.filter(dog => dog.animalgender == 'M');
 	
 	
-// 	// const all = localData.filter()
+	// const all = localData.filter()
 
 
-// 	// Parse either set depending on the dropdown value
-// 	if (dropdown.value == 'Female'){
-// 		renderItems(genderF);
-// 		console.log(localData);
-// 	}
-// 	else if (dropdown.value == 'Male') {
-// 		renderItems(genderM) ;
+	// Parse either set depending on the dropdown value
+	if (dropdown.value == 'Female'){
+		renderItems(genderF);
+		console.log(breed);
+	}
+	else if (dropdown.value == 'Male') {
+		renderItems(genderM) ;
 	
-// 	}
-// 	// else if (dropdown.value == 'All') renderItems(all)
-// 	else  {
-// 		renderItems(localData) ;
+	}
+	// else if (dropdown.value == 'All') renderItems(all)
+	else  {
+		renderItems(breed) ;
 	
-// 	} // Send the whole, unfiltered dataset
+	} // Send the whole, unfiltered dataset
 
-// 	// console.log('F' + animalbirth + animalgender + animalname)
-// }
+	// console.log('F' + animalbirth + animalgender + animalname)
+}
 
 
 
@@ -136,11 +98,11 @@ dropdown_breed.onchange = () => {
 // Fetch gets your JSON file…
 fetch('assets/collection.json')
 	.then(response => response.json())
-	.then(collection => {
-		localData = collection
+	.then(localData => {
+		breed = localData
 		// parseData(localData)
 		// And passes the data to the function, above!
-		renderItems(collection.reverse()) // In reverse order
+		renderItems(localData.reverse()) // In reverse order
 	})
 
 
