@@ -60,4 +60,48 @@ h1{
   
   /* Change the background color of the dropdown button when the dropdown content is shown */
 
-  
+
+  @media (min-width: 375px) {
+    h1{
+      font-size: 10vh;
+      text-align: center;    
+    }
+    .dog-house{
+      margin-top: 0vh;
+    }
+    .dropdown{
+      position: relative;
+      display: inline-block;
+      font-size: .5vh;
+      top: -22.8vh;
+      left: 7vh;
+    }
+
+    .dropbtn{
+      font-size: .5vh;
+    }
+  }
+
+
+
+
+  @media (min-width: 600px) {
+    h1{
+      font-size: 10vh;
+      text-align: center;    
+    }
+    .dog-house{
+      margin-top: 0vh;
+    }
+    .dropdown{
+      position: relative;
+      display: inline-block;
+      font-size: .8vh;
+      top: -23.4vh;
+      left: 7vh;
+    }
+
+    .dropbtn{
+      font-size: .8vh;
+    }
+  }
