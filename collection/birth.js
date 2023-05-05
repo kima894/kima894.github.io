@@ -57,7 +57,6 @@ let localData = [] // Set up an empty object for our local data (`let` because i
 
 
 dropdown_birth.onchange = () => {
-	const all = localData.filter(dog => dog.animalbirth == '');
     const year0 = localData.filter(dog => dog.animalbirth == '2000');
 	const year1 = localData.filter(dog => dog.animalbirth == '2001');
 	const year2 = localData.filter(dog => dog.animalbirth == '2002');
@@ -135,7 +134,8 @@ dropdown_birth.onchange = () => {
 	
 	}
 	else  {
-		renderItems(all);	
+		renderItems(localData) ;
+	
 	}
 
 	// console.log(breed)
