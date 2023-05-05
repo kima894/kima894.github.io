@@ -60,7 +60,7 @@ h1{
   
   /* Change the background color of the dropdown button when the dropdown content is shown */
 
-
+/* 
   @media (min-width: 375px) {
     h1{
       font-size: 10vh;
@@ -108,4 +108,4 @@ h1{
     .dropbtn{
       font-size: .8vh;
     }
-  }
+  } */
