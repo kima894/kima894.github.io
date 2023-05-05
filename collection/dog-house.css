@@ -80,7 +80,11 @@ h1{
     .dropbtn{
       font-size: .5vh;
     }
-  }
+    .dropdown-content {
+      min-width: 60px; 
+       }
+
+    }
 
 
 
