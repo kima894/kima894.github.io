@@ -63,4 +63,5 @@ select, ul {
 	position: fixed;
 	width: 10vh;
 	left: .5vh;
+    z-index: 1;
 }
