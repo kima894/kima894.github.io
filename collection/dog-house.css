@@ -7,14 +7,14 @@ html{
 h1{
   font-family: 'Concert One', cursive;
   color: azure;
-  font-size: 10vh;
+  font-size: 8vh;
   position: relative;
-  right: -3vh;
+  text-align: center;
 }
 
 .dog-house{
   position: relative;
-  margin-top: -10vh;
+  margin-top: -2vh;
 }
 
 /* Dropdown Button */
@@ -31,7 +31,7 @@ h1{
     position: relative;
     display: inline-block;
     top: -70vh;
-    left: 30vh;
+    left: 29vh;
   }
   
   /* Dropdown Content (Hidden by Default) */

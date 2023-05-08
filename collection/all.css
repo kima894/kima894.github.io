@@ -48,7 +48,10 @@ li {
 
 .faded { opacity: 0.333 }
 
-label { opacity: 50%; }
+label { 
+	opacity: 70%; 
+	color: azure;	
+}
 
 select, ul {
     border-radius: calc(var(--spacing) / 4);
