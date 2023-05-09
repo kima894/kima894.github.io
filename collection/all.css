@@ -75,7 +75,7 @@ select, ul {
 
 .breed-button{
 	position: fixed;
-	width: 20vh;
+	width: 10vh;
 	left: -4.5vh;
 	top: 15vh;
 	z-index: 1;
