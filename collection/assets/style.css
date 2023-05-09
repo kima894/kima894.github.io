@@ -65,3 +65,35 @@ select, ul {
 	left: .5vh;
 	z-index: 1;
 }
+
+.genderButton{
+	position: fixed;
+	width: 18vh;
+	margin-left: -5vh;
+	margin-top: 10vh;
+	z-index: 1;
+}
+
+.birth-button{
+	position: fixed;
+	width: 18vh;
+	left: -3.5vh;
+	top: 28vh;
+	z-index: 1;
+}
+
+.homeCaption{
+	margin-left: 3vh;
+	margin-top: -2vh;
+}
+
+.genderCaption{
+	margin-left: 6.5vh;
+	margin-top: -2.5vh;	
+}
+
+.birthCaption{
+	margin-left: 5.5vh;
+	margin-top: -4.5vh;
+}
+
